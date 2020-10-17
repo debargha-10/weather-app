@@ -14,7 +14,7 @@ export class PageService {
 
 
 locationGet(location:String){
-   return this.http.get('http://www.mapquestapi.com/geocoding/v1/address?key=9pVCWUXgrhjVovImTASTBnPtRYQdA6sa&location='+location);
+   return this.http.get('https://www.mapquestapi.com/geocoding/v1/address?key=9pVCWUXgrhjVovImTASTBnPtRYQdA6sa&location='+location);
 }
 
 getWeather(latitude:String,longitude:String){
