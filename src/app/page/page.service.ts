@@ -18,6 +18,6 @@ locationGet(location:String){
 }
 
 getWeather(latitude:String,longitude:String){
-  return this.http.get('http://api.openweathermap.org/data/2.5/weather?lat='+latitude+'&lon='+longitude+'&appid=bb5214980743a161bd07bf54510d92ff&units=metric');
+  return this.http.get('https://api.openweathermap.org/data/2.5/weather?lat='+latitude+'&lon='+longitude+'&appid=bb5214980743a161bd07bf54510d92ff&units=metric');
 }
 }
